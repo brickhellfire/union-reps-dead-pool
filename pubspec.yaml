@@ -1,0 +1,18 @@
+name: union_reps_dead_pool
+description: Dark comedy payout tracker for Union Reps
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.0.11
+  provider: ^6.1.1
+  intl: ^0.18.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tombstone.png
